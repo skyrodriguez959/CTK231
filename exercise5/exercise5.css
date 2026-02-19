@@ -1,0 +1,25 @@
+ nav ul {
+ list-style: none;
+ margin: 0;
+ Padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px; 
+}
+
+nav li a:hover {
+    background-color: maroon;
+}
