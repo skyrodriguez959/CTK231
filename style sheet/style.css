@@ -1,0 +1,55 @@
+/* anything between these two tags will be ignored by the browser */
+
+h1 {
+    color: red;
+}
+/*
+p {
+    color: #ff3366;
+    background-color: #00ff00;
+}
+    */
+
+.specialp {
+    color: blue;
+    background-color: red;
+}
+
+#specialID {
+    color: green;
+    background-color: purple;
+}
+
+.orangebg {
+    background-color: orange;
+}
+
+.spanstyle {
+    color: blue;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:link {
+  color: #00ff00;
+}
+
+
+a:visited {
+  color: #0000ff;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: #ff00ff;
+   text-decoration: underline;
+}        
+footer {
+    color: green;
+}
