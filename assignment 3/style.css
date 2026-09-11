@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+    background-color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: red;
+}
+
+h4{
+    color: red;
+}
+
+a {
+  color: #ff0000;
+}
+    
+
+.specialp {
+    color: blue;
+}
+
+#specialID {
+    color: red;
+    background-color: blue;
+}
+
+.spanstyle {
+    color: blue;
+}
+
+.redbg {
+    background-color: red;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}    
