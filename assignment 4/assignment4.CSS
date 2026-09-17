@@ -1,0 +1,45 @@
+body{
+    background-color: #999999;
+    background-image: url(OIP\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.imgbox{
+    border: 10px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color:yellow;
+}
+h1 {
+    background-color:orange;
+      font-style: italic;
+    font-weight: normal;
+}
+h2 {
+    background-color:orange;
+      font-style: italic;
+    font-weight: normal;
+}
+h3 {
+    background-color:orange;
+      font-style: italic;
+    font-weight: normal;
+}
+h4 {
+    background-color:orange;
+      font-style: italic;
+    font-weight: normal;
+}
+body {
+    font-family: Arial, Helvetica;
+}
+
+.textcenter{
+    text-align: center;
+    line-height: 30px;
+}
+
+.textjustify{
+    text-align: justify;
+}
