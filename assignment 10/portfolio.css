@@ -6,7 +6,7 @@ body {
   margin: 24px auto;
   width: 1200px;
   border: 1px solid black;
- background-color: #aeb949;
+ background-color: #e1eb8d;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -14,20 +14,22 @@ body {
 
 header {
   grid-column: span 12;
-  background-color: rgb(19, 82, 19);
-font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(63, 143, 63);
+  font-family: "Merriweather", serif;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 0px;
   text-align: center;
-  color: white;
+  color: black;
   text-transform: uppercase;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
 }
 
 h1{
+    font-family: "Merriweather", serif;
   display:flex;
  justify-content: left;
-margin-left: 30px;
+margin-left: 70px;
   letter-spacing: 3px;
   gap: 70px;
   font-size: 30px;
@@ -38,10 +40,13 @@ margin-left: 30px;
   display: block;
   width: 600px;
   padding: 10px;
-  border: 5px solid black; 
+  border: 5px solid black;
+  border-radius: 24px; 
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
 }
 
 .band{
+  font-family: "BBH Bogle", sans-serif;
   margin-left: 300px;
   margin-top: 100px;
   margin-bottom:100px;
@@ -66,15 +71,15 @@ nav ul{
 
 nav li{
   width: 365px;
-  background-color:rgb(19, 82, 19);
-font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:rgb(63, 143, 63);
+  font-family: "Merriweather", serif;
     display: inline-block;
     margin-left: 25px;
     margin-bottom: 20px;
 }
 
 nav li a{
-   color: white;
+   color: black;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 32px;
@@ -83,12 +88,19 @@ nav li a{
   display:block;
   text-align: center;
   letter-spacing: 5px;
+   box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
 }
 
-footer{
-  grid-column: span 12;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr
+footer a{
+  color:black;
+  font-size: 50px;
+  margin-left: 30px;
+  transition: all 1s;
+}
+
+footer a:hover{
+  color: rgb(63, 143, 63);
+  font-size: 70px;
 }
 
 
