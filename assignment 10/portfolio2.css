@@ -1,0 +1,113 @@
+body {
+  background-color: #999999;
+}
+
+
+#wrapper {
+ margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+ background-color: #e1eb8d;
+  }
+
+  header {
+  grid-column: span 12;
+  background-color: rgb(63, 143, 63);
+  font-family: "Merriweather", serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
+
+h1{
+    font-family: "Merriweather", serif;
+  display:flex;
+ justify-content: left;
+margin-left: 70px;
+  letter-spacing: 3px;
+  gap: 70px;
+  font-size: 30px;
+}
+#myCarousel {
+  width: 500px;
+  margin: 50px;
+  margin-left: 330px;
+  border: 2px solid black
+}
+
+#myCarousel .f-carousel__slide{
+  text-align: center;
+  padding: 0px;
+  background: #eee;
+}
+
+#myCarousel .f-carousel__slide img{
+    width: 300px;
+}
+
+.f-carousel {
+  --f-arrow-pos: 10px;
+
+  --f-arrow-width: 50px;
+  --f-arrow-height: 50px;
+
+  --f-arrow-svg-width: 32px;
+  --f-arrow-svg-height: 32px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #792892;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #fff;
+  --f-arrow-hover-bg: #f9f9f9;
+  --f-arrow-active-bg: #f0f0f0;
+}
+nav{
+  grid-column: span 12;
+}
+nav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li{
+  width: 365px;
+  background-color:rgb(63, 143, 63);
+  font-family: "Merriweather", serif;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+nav li a{
+   color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bold;
+  padding:24px;
+  display:block;
+  text-align: center;
+  letter-spacing: 5px;
+   box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
+
+footer a{
+  color:black;
+  font-size: 50px;
+  margin-left: 30px;
+  transition: all 1s;
+}
+
+footer a:hover{
+  color: rgb(63, 143, 63);
+  font-size: 70px;
+}
+
